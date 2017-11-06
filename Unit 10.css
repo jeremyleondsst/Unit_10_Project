@@ -1,0 +1,110 @@
+
+header { font-family: 'Lobster', cursive;
+}
+nav { font-family: 'Yanone Kaffeesatz', sans-serif; font-size:18px; color: black;
+font-style: oblique;
+
+}
+
+.wrapper {
+  width: 980px;
+  margin: auto;
+}
+.wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.top-nav {
+  float: left;
+  margin: 72px;
+}
+
+.top-nav ul {
+  margin: 0;
+  list-style: none;
+}
+
+.top-nav ul li {
+  display: inline-block;
+  margin-right: 40px;
+}
+
+
+.top-nav ul li a {
+  font-size: 18px;
+  font-family: 'Shrikhand', cursive;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+#top-nav-right { float: right;}
+
+.top-nav ul li a:hover {
+  color: yellow;
+}
+
+header h1 {
+  float: left;
+  font-size: 40px;
+  margin: 0;
+  padding-top: 50px;
+  font-family: 'Lobster', cursive;
+}
+
+header h1 a {
+  text-decoration: none;
+  color: white;
+}
+
+header h1 a:hover {
+  color: yellow;
+}
+
+header {
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+  border-top: 4px solid black;
+  z-index: 999;
+  background-color: black;
+}
+
+main {
+  min-height: 400px;
+  background-color: #fff;
+}
+footer h3 a { color: white;}
+footer h3 a:hover {
+  color: yellow; }
+footer {
+   font-family: 'Lobster', cursive; font-weight: 11; font-size:15px;
+  color: white;
+  height: 150px;
+  background-color: black;
+  text-align: center;
+}
+
+.ok {
+  border-width: 50px; color: #ffff00; font-family: 'Lobster', cursive; font-weight: bold;
+text-align: center; font-size: 20px; border-style: solid; border-color: white;}
+.fun {
+  font-family: 'Lobster', cursive; text-align: center;}
+  .dropdown {
+      position: relative;
+      display: inline-block;
+  }
+
+  .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      padding: 12px 16px;
+      z-index: 1;
+  }
+
+  .dropdown:hover .dropdown-content {
+      display: block;
+  }
